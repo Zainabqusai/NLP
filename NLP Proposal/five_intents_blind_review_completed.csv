@@ -1,0 +1,151 @@
+﻿Review ID,instruction,Predicted Intent by Reviewer,Review Status,Notes
+1,can ya help me cancel purchzse {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+2,"I bought some articles, help me to cancel order {{Order Number}}",cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+3,"I can no longer afford order {{Order Number}}, can I cancel it?",cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+4,is it possible to cancel order {{Order Number}} ?,cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+5,i dont know how to cancel order {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+6,i want assistance tocancel order {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+7,help cancelling my bloody purchase,cancel_order,Clear,Intent is explicit in the message.
+8,I need help with cancelling order {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+9,I have got to cancel order {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+10,i dont want oredr {{Order Number}},cancel_order,Clear,Implicit cancellation (does not want order); intent is reasonably inferable. Order/amount placeholder present; contextual intent assessed from remaining text.
+11,"I purchased some articles, cancel order {{Order Number}}",cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+12,can you help me to cancel purchase {{Order Number}}?,cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+13,i obught some item help me canceling order {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+14,I want to cancel purchase {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+15,i purchased some fucking item cancel order {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+16,i want help to cancel purchase {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+17,"I cannot afford this article, cancel order {{Order Number}}",cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+18,i dont know what to do to cancel purchase {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+19,i want help cancelling purchase {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+20,I need helpto cancel order {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+21,i need help canceling purchase {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+22,I am trying to cancel order {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+23,i need help with canceling purchase {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+24,need assistance withcanceling purchase {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+25,i no longer want purchase  {{Order Number}},cancel_order,Clear,Implicit cancellation (no longer wants purchase). Order/amount placeholder present; contextual intent assessed from remaining text.
+26,help cancelling purchase {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+27,whag do i need to do to cancel order {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+28,can uhelp me to cancel purchase {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+29,prfoblems with cancelling order {{Order Number}},cancel_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+30,"I cannot pay for the last purchase I have made, cancel it",cancel_order,Clear,"Explicit cancel request; financial difficulty is context, not a payment-issue request."
+31,i dont know what to do to get a reimbursement,get_refund,Clear,Intent is explicit in the message.
+32,where to demand my money back?,get_refund,Clear,Intent is explicit in the message.
+33,"I have paid {{Currency Symbol}}{{Refund Amount}} for this item, help me to obtain a rebate",get_refund,Clear,Rebate/refund request; unresolved amount/currency placeholders do not obscure the intent. Order/amount placeholder present; contextual intent assessed from remaining text.
+34,I want help to receive refunds of money,get_refund,Clear,Intent is explicit in the message.
+35,I need help to demand a goddamn reimbursement,get_refund,Clear,Intent is explicit in the message.
+36,can ya help me requesting a rebate of my money,get_refund,Clear,Intent is explicit in the message.
+37,I need help to ask for a compensation of my money,,Ambiguous,Compensation could mean refund or broader compensation; inspect intent definition.
+38,want assistance obtaining reimbursements,get_refund,Clear,Intent is explicit in the message.
+39,i try to receive compensations of money,,Ambiguous,Compensation wording could refer to a broader claim rather than a conventional refund.
+40,i need help to get reimbursements,get_refund,Clear,Intent is explicit in the message.
+41,help me ask for a rebate,get_refund,Clear,Intent is explicit in the message.
+42,would it be possible to get a refund?,get_refund,Clear,Intent is explicit in the message.
+43,wjen am i getting a compensation of money,,Ambiguous,"Asks when compensation will arrive, not clearly requesting a new refund; possible refund-status intent."
+44,is it possible to get rebates of my money,get_refund,Clear,Intent is explicit in the message.
+45,I do not know how to ask for rebates of my money,get_refund,Clear,Intent is explicit in the message.
+46,help me to request a rebate of my money,get_refund,Clear,Intent is explicit in the message.
+47,receiving rebate,,Ambiguous,Fragment “receiving rebate” lacks a clear action; could be refund status or refund request.
+48,I need assistance to demand a reimbursement,get_refund,Clear,Intent is explicit in the message.
+49,I have got to obtain a reimbursement,get_refund,Clear,Intent is explicit in the message.
+50,can you help me request a rebate of money?,get_refund,Clear,Intent is explicit in the message.
+51,i want help requesting refunds,get_refund,Clear,Intent is explicit in the message.
+52,i want help demanding reimbursements of my money,get_refund,Clear,Intent is explicit in the message.
+53,i do not know how to demand refunds,get_refund,Clear,Intent is explicit in the message.
+54,how to receive a compensation of my money,get_refund,Clear,Intent is explicit in the message.
+55,i want assistance to ask for a rebate of my money,get_refund,Clear,Intent is explicit in the message.
+56,need assistance to obtain a refund of my money,get_refund,Clear,Intent is explicit in the message.
+57,assistance to ask for compensations,get_refund,Clear,Intent is explicit in the message.
+58,where can I receive a restitution of money?,get_refund,Clear,“Restitution of money” interpreted as refund; unnatural phrasing.
+59,help me obtaining a compensation of money,get_refund,Clear,Intent is explicit in the message.
+60,how do i obtain a reimbursement of money,get_refund,Clear,Intent is explicit in the message.
+61,I nerd to report a trouble with online payment,payment_issue,Clear,Intent is explicit in the message.
+62,I am trying to notify of problems with online payment,payment_issue,Clear,Intent is explicit in the message.
+63,assistance  to report issues with payment,payment_issue,Clear,Intent is explicit in the message.
+64,"the payment failed, I want to notify of issues",payment_issue,Clear,Intent is explicit in the message.
+65,I'm trying to notify of problems with payments,payment_issue,Clear,Intent is explicit in the message.
+66,where do I inform of payment errors?,payment_issue,Clear,Intent is explicit in the message.
+67,can ay help me notifying of a trouble with payment,payment_issue,Clear,Intent is explicit in the message.
+68,can you help me solve a problem with online payment?,payment_issue,Clear,Intent is explicit in the message.
+69,"I can't pay, notify of a trouble with online payment",payment_issue,Clear,Intent is explicit in the message.
+70,I want to report a problem with online payments,payment_issue,Clear,Intent is explicit in the message.
+71,can uhelp me to solve a problem with online payments,payment_issue,Clear,Intent is explicit in the message.
+72,notifying of problems with payments,payment_issue,Clear,"Fragment, but reporting payment problems remains identifiable."
+73,help informing of a fucking payment problem,payment_issue,Clear,Intent is explicit in the message.
+74,i cant make payments how to inform of issues with payment,payment_issue,Clear,Intent is explicit in the message.
+75,I try to notify of errors with online payment,payment_issue,Clear,Intent is explicit in the message.
+76,what do I need to do to notify of a payment error?,payment_issue,Clear,Intent is explicit in the message.
+77,where do I notify of a payment problem?,payment_issue,Clear,Intent is explicit in the message.
+78,I need assistamce to inform of a payment issue,payment_issue,Clear,Intent is explicit in the message.
+79,i do ont know how i can report an issue with payment,payment_issue,Clear,Intent is explicit in the message.
+80,could ya help me to solve an issue with payments,payment_issue,Clear,Intent is explicit in the message.
+81,could you help me solving troubles with online payment ?,payment_issue,Clear,Intent is explicit in the message.
+82,where could I notify of a payment issue?,payment_issue,Clear,Intent is explicit in the message.
+83,I want help notifying of problems with online payment,payment_issue,Clear,Intent is explicit in the message.
+84,where could I inform of issues with payment?,payment_issue,Clear,Intent is explicit in the message.
+85,i need assistance to report problems with online payments,payment_issue,Clear,Intent is explicit in the message.
+86,I want to notify of troubles with online payments,payment_issue,Clear,Intent is explicit in the message.
+87,i dont know what i have to do to report issues with payments,payment_issue,Clear,Intent is explicit in the message.
+88,how can I inform of a payment error?,payment_issue,Clear,Intent is explicit in the message.
+89,i want help to inform of errors with payments,payment_issue,Clear,Intent is explicit in the message.
+90,help with payments,,Insufficient Information,“help with payments” does not specify a payment error; insufficient to establish payment_issue.
+91,is it possible to retrieve my user account password?,recover_password,Clear,Intent is explicit in the message.
+92,I want assistance to reset my pwd,recover_password,Clear,Intent is explicit in the message.
+93,i have to reset the pin code of my profile,recover_password,Clear,PIN reset interpreted as credential recovery rather than payment PIN maintenance.
+94,want assistance to retrieve the PIN of my account,recover_password,Clear,Intent is explicit in the message.
+95,how to reset the damn password of my user?,recover_password,Clear,Intent is explicit in the message.
+96,i have to retrieve the key of my user how do i do it,recover_password,Clear,“key of my user” is unnatural; interpreted as account access credential.
+97,"I have forgotten my PIN, could I reset it?",recover_password,Clear,Intent is explicit in the message.
+98,i cant retrieve the pin of my account,recover_password,Clear,Intent is explicit in the message.
+99,help me resetting my user PIN,recover_password,Clear,Intent is explicit in the message.
+100,I try to retrieve mt account PIN,recover_password,Clear,Intent is explicit in the message.
+101,"I want to restore my profile PIN code, I need help",recover_password,Clear,Intent is explicit in the message.
+102,i cant recover the key of my user profile,recover_password,Clear,Intent is explicit in the message.
+103,i do not know how to recover the pin code of my user profile,recover_password,Clear,Intent is explicit in the message.
+104,help me retrieve my profile pin code,recover_password,Clear,Intent is explicit in the message.
+105,I don't know how to retrieve the PIN code of my user,recover_password,Clear,Intent is explicit in the message.
+106,can you help me retrieve the access key of my user account?,recover_password,Clear,Intent is explicit in the message.
+107,how to recove the pin of my profile,recover_password,Clear,Intent is explicit in the message.
+108,I would like information about the key retrieval,recover_password,Clear,Information about account access key retrieval implies credential recovery.
+109,"I have lost the PIN of my user, how do I recover it?",recover_password,Clear,Intent is explicit in the message.
+110,I can't recover my user account access key,recover_password,Clear,Intent is explicit in the message.
+111,I need assistance to retrieve my user profile pass,recover_password,Clear,Intent is explicit in the message.
+112,can ya help me retrieve the pin code of my acocunt,recover_password,Clear,Intent is explicit in the message.
+113,I need to retrieve my PIN,recover_password,Clear,Intent is explicit in the message.
+114,how do I retrieve the access key of my user account?,recover_password,Clear,Intent is explicit in the message.
+115,need assistance recovering the PIN code of my account,recover_password,Clear,Intent is explicit in the message.
+116,i do not know how to recover the pin of my user profile,recover_password,Clear,Intent is explicit in the message.
+117,where can i find information about the access key reset,recover_password,Clear,Intent is explicit in the message.
+118,I want information about a forgotten PIN code,recover_password,Clear,Forgotten PIN implies account credential recovery.
+119,how do I retrieve the password of my user profile?,recover_password,Clear,Intent is explicit in the message.
+120,what do I need to do to recover my user account PIN code?,recover_password,Clear,Intent is explicit in the message.
+121,ETA of purchase {{Order Number}},track_order,Clear,ETA refers to order arrival; order-tracking intent inferred. Order/amount placeholder present; contextual intent assessed from remaining text.
+122,i wqant assistance checking purchase {{Order Number}} status,track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+123,i have got to locte order {{Order Number}},track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+124,need help checking the damn ETA of purchase {{Order Number}},track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+125,see purchase {{Order Number}} goddamn status,track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+126,check the eta of the order {{Order Number}},track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+127,is it possible to see the eta of order {{Order Number}},track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+128,help me to check order {{Order Number}} goddamn current status,track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+129,I want help checking order {{Order Number}} current status,track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+130,i need assistance to check purchase {{Order Number}} status,track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+131,assistance to see purchase {{Order Number}} status,track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+132,what do I need to do to locate purchase {{Order Number}}?,track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+133,i do not know how i cancheck the eta of purchase {{Order Number}},track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+134,"I need to locate purchase {{Order Number}}, how do I do it?",track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+135,I want assistance checking purchase {{Order Number}} status,track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+136,where can i see the damn eta of the purchase {{Order Number}},track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+137,checking ETA of order {{Order Number}},track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+138,where could i check order {{Order Number}} fucking curent status,track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+139,want help to see the status of purchase {{Order Number}},track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+140,"I want to locate order {{Order Number}}, can I get some help?",track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+141,help to see the ETA of the order {{Order Number}},track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+142,want help to check the eta of purchase {{Order Number}},track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+143,when will I receive ordered {{Order Number}} ?,track_order,Clear,"Asks expected receipt time, consistent with order tracking. Order/amount placeholder present; contextual intent assessed from remaining text."
+144,where can i see the ETA of the order {{Order Number}},track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+145,is it possible to see purchase {{Order Number}} status?,track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+146,help me see the ETA of the order {{Order Number}},track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+147,where do i see the eta of the order {{Order Number}},track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+148,want assistance to see order {{Order Number}} syatus,track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+149,wanna check the status of purchase {{Order Number}} how to do it,track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
+150,assiustance tracking purchase {{Order Number}},track_order,Clear,Order/amount placeholder present; contextual intent assessed from remaining text.
